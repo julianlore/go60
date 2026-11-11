@@ -4802,6 +4802,29 @@
           "code": "&zip_xy_to_scroll_mapper",
           "params": []
         }
+      ],
+      "nodes": [
+        {
+          "code": "layer_1",
+          "layers": [
+            1
+          ],
+          "inputProcessors": [
+            {
+              "code": "&zip_xy_transform",
+              "params": [
+                [
+                  "INPUT_TRANSFORM_X_INVERT",
+                  "INPUT_TRANSFORM_Y_INVERT"
+                ]
+              ]
+            },
+            {
+              "code": "&zip_xy_to_scroll_mapper",
+              "params": []
+            }
+          ]
+        }
       ]
     },
     {
@@ -4811,7 +4834,24 @@
           "code": "&zip_xy_scaler",
           "params": [
             3,
+            2
+          ]
+        }
+      ],
+      "nodes": [
+        {
+          "code": "layer_1",
+          "layers": [
             1
+          ],
+          "inputProcessors": [
+            {
+              "code": "&zip_xy_scaler",
+              "params": [
+                3,
+                1
+              ]
+            }
           ]
         }
       ]
