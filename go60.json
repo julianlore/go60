@@ -4,7 +4,7 @@
   "firmware_api_version": "1",
   "locale": "en-US",
   "uuid": "",
-  "parent_uuid": "65328fc1-5a0c-4621-95b0-be68b569f7c8",
+  "parent_uuid": "8bd318ad-fce3-449f-98e6-8eeafee747a3",
   "unlisted": false,
   "date": 1790559462,
   "creator": "julianl",
@@ -4786,7 +4786,7 @@
           "code": "&zip_xy_scaler",
           "params": [
             1,
-            2
+            5
           ]
         },
         {
@@ -4810,6 +4810,13 @@
             1
           ],
           "inputProcessors": [
+            {
+              "code": "&zip_xy_scaler",
+              "params": [
+                2,
+                5
+              ]
+            },
             {
               "code": "&zip_xy_transform",
               "params": [
