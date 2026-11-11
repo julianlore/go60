@@ -3,8 +3,8 @@
   "keyboard": "go60",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "65328fc1-5a0c-4621-95b0-be68b569f7c8",
-  "parent_uuid": "5cef688a-f68b-4d11-9995-69054a0579d6",
+  "uuid": "",
+  "parent_uuid": "65328fc1-5a0c-4621-95b0-be68b569f7c8",
   "unlisted": false,
   "date": 1790559462,
   "creator": "julianl",
@@ -4783,11 +4783,23 @@
       "code": "&cirque_lh_listener",
       "inputProcessors": [
         {
-          "code": "&zip_xy_to_scroll_mapper",
-          "params": []
+          "code": "&zip_xy_scaler",
+          "params": [
+            1,
+            2
+          ]
         },
         {
-          "code": "&zip_click_to_right_click_mapper",
+          "code": "&zip_xy_transform",
+          "params": [
+            [
+              "INPUT_TRANSFORM_X_INVERT",
+              "INPUT_TRANSFORM_Y_INVERT"
+            ]
+          ]
+        },
+        {
+          "code": "&zip_xy_to_scroll_mapper",
           "params": []
         }
       ]
