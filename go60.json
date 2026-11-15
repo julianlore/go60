@@ -4,9 +4,9 @@
   "firmware_api_version": "1",
   "locale": "en-US",
   "uuid": "",
-  "parent_uuid": "8bd318ad-fce3-449f-98e6-8eeafee747a3",
+  "parent_uuid": "665fe388-bc44-474c-81ed-8a1611b17434",
   "unlisted": false,
-  "date": 1790559462,
+  "date": 1794379093,
   "creator": "julianl",
   "title": "Go60 ca-fr (CMS)",
   "notes": "",
@@ -4793,13 +4793,16 @@
           "code": "&zip_xy_transform",
           "params": [
             [
-              "INPUT_TRANSFORM_X_INVERT",
               "INPUT_TRANSFORM_Y_INVERT"
             ]
           ]
         },
         {
           "code": "&zip_xy_to_scroll_mapper",
+          "params": []
+        },
+        {
+          "code": "&zip_click_to_right_click_mapper",
           "params": []
         }
       ],
@@ -4821,13 +4824,16 @@
               "code": "&zip_xy_transform",
               "params": [
                 [
-                  "INPUT_TRANSFORM_X_INVERT",
                   "INPUT_TRANSFORM_Y_INVERT"
                 ]
               ]
             },
             {
               "code": "&zip_xy_to_scroll_mapper",
+              "params": []
+            },
+            {
+              "code": "&zip_click_to_right_click_mapper",
               "params": []
             }
           ]
